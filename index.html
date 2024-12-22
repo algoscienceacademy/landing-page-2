@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Biz Flow - Innovation Meets Business</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+       (function() {
+          emailjs.init("YOUR_PUBLIC_KEY"); // Add your EmailJS public key here
+       })();
+    </script>
+</head>
+<body>
+    <nav class="glass-nav">
+        <div class="nav-brand">
+            <img src="logo.png" alt="Biz Flow Logo" class="nav-logo">
+            <span class="brand-name">Biz Flow</span>
+        </div>
+        
+        <div class="nav-links">
+            <div class="nav-group">
+                <a href="#home" class="nav-item active">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#products" class="nav-item">
+                    <i class="fas fa-box"></i>
+                    <span>Products</span>
+                </a>
+                <a href="#clients" class="nav-item">
+                    <i class="fas fa-handshake"></i>
+                    <span>Clients</span>
+                </a>
+                <a href="#pricing" class="nav-item">
+                    <i class="fas fa-tags"></i>
+                    <span>Pricing</span>
+                </a>
+            </div>
+            <div class="nav-group">
+                <a href="#career" class="nav-item">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Career</span>
+                </a>
+                <a href="#about" class="nav-item">
+                    <i class="fas fa-info-circle"></i>
+                    <span>About</span>
+                </a>
+                <a href="#contact" class="nav-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="brand">
+                <img src="logo.png" alt="Logo" class="nav-logo">
+                <span class="brand-name">Biz Flow</span>
+            </div>
+            <button class="mobile-menu-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="mobile-menu-items">
+            <a href="#home" class="nav-item">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="#products" class="nav-item">
+                <i class="fas fa-box"></i>
+                <span>Products</span>
+            </a>
+            <a href="#clients" class="nav-item">
+                <i class="fas fa-handshake"></i>
+                <span>Clients</span>
+
+            </a>
+            <a href="#pricing" class="nav-item">
+                <i class="fas fa-tags"></i>
+                <span>Pricing</span>
+            </a>
+            <a href="#career" class="nav-item">
+                <i class="fas fa-briefcase"></i>
+                <span>Career</span>
+            </a>
+            <a href="#about" class="nav-item">
+                <i class="fas fa-info-circle"></i>
+                <span>About</span>
+            </a>
+            <a href="#contact" class="nav-item">
+                <i class="fas fa-envelope"></i>
+                <span>Contact</span>
+            </a>
+           
+        </div>
+    </div>
+
+    <main>
+        <section id="home" class="glass-section">
+            <div class="home-header">
+                <h1>Welcome to Biz Flow</h1>
+                <p class="tagline">Where innovation meets business.</p>
+            </div>
+            
+            <div class="section-header">
+                <h2 class="section-title">We specialize in:</h2>
+            </div>
+            
+            <ul class="specializations">
+                <li>
+                    <div class="specialization-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="specialization-content">
+                        <strong>Web Applications</strong> 
+                        <p>Streamline your operations with cutting-edge solutions tailored to your business needs.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="specialization-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="specialization-content">
+                        <strong>Mobile Applications</strong>
+                        <p>Engage your audience with user-friendly, high-performing apps designed for the future.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="specialization-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="specialization-content">
+                        <strong>Software Consultation</strong>
+                        <p>Expert guidance to optimize your software development and technology strategies.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="specialization-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="specialization-content">
+                        <strong>Startup Coaching</strong>
+                        <p>Transform your business idea into reality with mentorship and actionable insights.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="specialization-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="specialization-content">
+                        <strong>Programming Courses</strong>
+                        <p>Advance your skills with our Intermediate to Advanced-level courses that cater to professionals aiming for excellence.</p>
+                    </div>
+                </li>
+            </ul>
+
+            <p class="home-cta">Let's make your business flow seamlessly with technology that works for you.</p>
+        </section>
+
+        <section id="products" class="glass-section">
+            <h2>Our Products</h2>
+            
+            <div class="product-item">
+                <div class="product-header">
+                    <h3>Track-Bill</h3>
+                    <a href="https://track-bill.com/" class="product-link" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        Visit Track-Bill
+                    </a>
+                </div>
+
+                <div class="product-questions">
+                    <p>Are you tired with signing the invoice manually?</p>
+                    <p>Would you like to access your invoices from anywhere and approve the invoice with one click?</p>
+                    <p>Do you want to find an invoice document within a second with a fingerprint?</p>
+                    <p>Do you want full transparency and control over the payment?</p>
+                </div>
+                
+                <div class="product-description">
+                    <p>Try our Track-Bill, a cloud-based online solution for managing your approval invoices and payments. It allows you to create your own approval matrix and claim invoices online.</p>
+                    
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Cloud-based invoice storage and management</li>
+                        <li>One-click invoice approval system</li>
+                        <li>Fingerprint document search</li>
+                        <li>Custom approval matrix creation</li>
+                        <li>Real-time invoice approval notifications</li>
+                        <li>Secure payment tracking and control</li>
+                        <li>Digital receipt storage</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <h3>Maintenance Pro</h3>
+                <div class="product-description">
+                    <p>A web-based platform for managing your device maintenance intervals. This equipment management software maintains your equipment database and offers:</p>
+                    <ul>
+                        <li>Track maintenance work with next maintenance schedule alerts</li>
+                        <li>Complete history of equipment maintenance and breakdowns</li>
+                        <li>Spare Parts change history</li>
+                        <li>Fuel consumption tracking</li>
+                        <li>Cost history for each piece of equipment</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="products-cta">Stay tuned for more innovative tools from Biz Flow, designed to empower your business every step of the way.</p>
+        </section>
+
+        <section id="clients" class="glass-section">
+            <h2>Our Clients</h2>
+            <p class="section-intro">Trusted by industry leaders and innovative businesses across Bangladesh.</p>
+            
+            <div class="clients-grid">
+                <div class="client-card glass">
+                    <div class="client-content">
+                        <img src="asl.png" alt="ASL" class="client-logo">
+                        <div class="client-info">
+                            <h3>ASL</h3>
+                            <p>Leading manufacturer and supplier of high-quality automotive accessories</p>
+                            <div class="client-details">
+                                <span><i class="fas fa-check-circle"></i> Trusted Partner since 2023</span>
+                                <span><i class="fas fa-star"></i> Premium Client</span>
+                            </div>
+                            <div class="client-features">
+                                <h4>Services Provided:</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> ERP Implementation</li>
+                                    <li><i class="fas fa-check"></i> Track-Bill System Integration</li>
+                                    <li><i class="fas fa-check"></i> Maintenance Pro Setup</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="client-testimonial">
+                        <blockquote>
+                            "Biz Flow's solutions have significantly improved our operational efficiency and streamlined our processes."
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="client-card glass">
+                    <div class="client-content">
+                        <img src="national.png" alt="National Accessories" class="client-logo">
+                        <div class="client-info">
+                            <h3>National Accessories</h3>
+                            <p>Leading manufacturer and supplier of high-quality automotive accessories</p>
+                            <div class="client-details">
+                                <span><i class="fas fa-check-circle"></i> Trusted Partner since 2020</span>
+                                <span><i class="fas fa-star"></i> Premium Client</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="client-testimonial">
+                        <blockquote>
+                            "Biz Flow's Track-Bill system has revolutionized our billing process, making it more efficient and error-free."
+                        </blockquote>
+                    </div>
+                </div>
+
+                <!-- Placeholder for future clients -->
+                <div class="client-card glass add-client">
+                    <i class="fas fa-plus-circle"></i>
+                    <p>Your Company Could Be Here</p>
+                    <a href="#contact" class="glass-button">Partner With Us</a>
+                </div>
+            </div>
+
+            <div class="client-stats glass">
+                <div class="stat-item">
+                    <i class="fas fa-building"></i>
+                    <h4>10+</h4>
+                    <p>Active Clients</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>95%</h4>
+                    <p>Client Retention</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-clock"></i>
+                    <h4>24/7</h4>
+                    <p>Support</p>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing Section -->
+        <section id="pricing" class="glass-section">
+            <h2 class="section-title">Transparent Pricing</h2>
+            <div class="pricing-toggle">
+                <span>Monthly</span>
+                <label class="switch">
+                    <input type="checkbox" id="billingToggle">
+                    <span class="slider"></span>
+                </label>
+                <span>Yearly</span>
+                <span class="save-badge">Save 20%</span>
+            </div>
+
+            <div class="pricing-container">
+                <!-- Basic Plan -->
+                <div class="pricing-card glass">
+                    <div class="pricing-header">
+                        <div class="plan-name">Basic</div>
+                        <div class="plan-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="price-container">
+                            <div class="price monthly">
+                                <span class="currency">$</span>
+                                <span class="amount">29</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <div class="price yearly hidden">
+                                <span class="currency">$</span>
+                                <span class="amount">279</span>
+                                <span class="period">/year</span>
+                            </div>
+                        </div>
+                        <p class="plan-description">Perfect for startups and small businesses</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Up to 5 Users</li>
+                            <li><i class="fas fa-check"></i> 10GB Storage</li>
+                            <li><i class="fas fa-check"></i> Basic Support</li>
+                            <li><i class="fas fa-check"></i> Email Integration</li>
+                            <li><i class="fas fa-check"></i> Basic Analytics</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <button class="glass-button">Get Started</button>
+                        <span class="trial-text">14-day free trial</span>
+                    </div>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card glass popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <div class="plan-name">Pro</div>
+                        <div class="plan-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price-container">
+                            <div class="price monthly">
+                                <span class="currency">$</span>
+                                <span class="amount">79</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <div class="price yearly hidden">
+                                <span class="currency">$</span>
+                                <span class="amount">759</span>
+                                <span class="period">/year</span>
+                            </div>
+                        </div>
+                        <p class="plan-description">Ideal for growing businesses</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Up to 20 Users</li>
+                            <li><i class="fas fa-check"></i> 50GB Storage</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                            <li><i class="fas fa-check"></i> Advanced Integrations</li>
+                            <li><i class="fas fa-check"></i> Advanced Analytics</li>
+                            <li><i class="fas fa-check"></i> Custom Reports</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <button class="glass-button primary">Get Started</button>
+                        <span class="trial-text">14-day free trial</span>
+                    </div>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="pricing-card glass">
+                    <div class="pricing-header">
+                        <div class="plan-name">Enterprise</div>
+                        <div class="plan-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="price-container">
+                            <div class="price monthly">
+                                <span class="currency">$</span>
+                                <span class="amount">199</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <div class="price yearly hidden">
+                                <span class="currency">$</span>
+                                <span class="amount">1,919</span>
+                                <span class="period">/year</span>
+                            </div>
+                        </div>
+                        <p class="plan-description">For large-scale organizations</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Unlimited Users</li>
+                            <li><i class="fas fa-check"></i> Unlimited Storage</li>
+                            <li><i class="fas fa-check"></i> 24/7 Premium Support</li>
+                            <li><i class="fas fa-check"></i> Custom Integrations</li>
+                            <li><i class="fas fa-check"></i> AI-Powered Analytics</li>
+                            <li><i class="fas fa-check"></i> Custom Development</li>
+                            <li><i class="fas fa-check"></i> Dedicated Account Manager</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <button class="glass-button">Contact Sales</button>
+                        <span class="trial-text">Custom solutions available</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="career" class="glass-section">
+            <div class="career-header">
+                <h1>Career Opportunities</h1>
+                <p class="career-subtitle">Shape the Future of Business Technology</p>
+            </div>
+            
+            <div class="career-intro">
+                <h2>Join Our Team</h2>
+                <p>We're on the lookout for passionate and talented individuals who want to innovate and grow with us.</p>
+            </div>
+
+            <div class="positions-grid">
+                <div class="position-card glass">
+                    <div class="position-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h4>Junior Web Developers</h4>
+                    <p>Kickstart your career by building dynamic and responsive websites with modern tools and frameworks.</p>
+                </div>
+                <div class="position-card glass">
+                    <div class="position-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h4>Senior Programmers</h4>
+                    <p>Lead complex projects, solve challenging problems, and mentor the next generation of developers.</p>
+                </div>
+                <div class="position-card glass">
+                    <div class="position-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h4>Figma Developers</h4>
+                    <p>Design stunning, user-centric interfaces that enhance user experiences across web and mobile platforms.</p>
+                </div>
+                <div class="position-card glass">
+                    <div class="position-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h4>AI Model Developers</h4>
+                    <p>Innovate and implement AI-driven solutions to revolutionize business processes.</p>
+                </div>
+            </div>
+
+            <div class="career-cta">
+                <p>If you're ready to make an impact and thrive in a collaborative, innovative environment, we'd love to hear from you. Let's build something extraordinary together!</p>
+            </div>
+
+            <div class="cv-upload glass">
+                <div class="cv-upload-content">
+                    <div class="cv-upload-header">
+                        <i class="fas fa-file-upload"></i>
+                        <h3>Join Our Team</h3>
+                        <p>Drop your CV and become part of the Biz Flow journey!</p>
+                    </div>
+                    
+                    <form id="cvForm" class="cv-form">
+                        <div class="file-upload-wrapper">
+                            <input type="file" id="cvFile" accept=".pdf,.doc,.docx" class="file-upload-input">
+                            <div class="file-upload-box">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <div class="upload-text">
+                                    <span class="main-text">Upload your CV</span>
+                                    <span class="sub-text">or drag and drop here</span>
+                                </div>
+                                <span class="file-name"></span>
+                            </div>
+                        </div>
+                        <button type="submit" class="upload-button">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Submit Application</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="glass-section">
+            <h2>About us</h2>
+            <div class="team-grid">
+                <div class="team-member glass">
+                    <h3>Mohiuddin Hyder Khan</h3>
+                    <p class="position">Former head of IT, pedrollo nk limited</p>
+                    <div class="education">
+                        <p>MBA in digital technology management, royal roads University, british colombia, canada</p>
+                    </div>
+                    <div class="experience">
+                        <p>24 years experience on computer programming, system design, system implement, ERP</p>
+                    </div>
+                    <p class="contact">Contact No: +8801919-216460</p>
+                </div>
+
+                <div class="team-member glass">
+                    <h3>Dr. Aasim Ullah</h3>
+                    <p class="position">Assistant Professor, Department of Electrical and Electronic Engineering (EEE), International Islamic</p>
+                    <div class="education">
+                        <p>Ph.D. in Electric Power Engineering, School of Engineering, Computer & Mathematical Science. Auckland University of Technology, New Zealand.</p>
+                        <p>MSc in Electric Power Engineering, Norwegian University of Science & Technology, (NTNU), Norway</p>
+                    </div>
+                    <p class="contact">Contact No: +8801911-060435</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="glass-section">
+            <h2>Contact us</h2>
+            <div class="contact-info glass">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email: bizflow@proton.me</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="addresses">
+                        <div class="address">
+                            <h4>Chittagong Office:</h4>
+                            <p>299, Nabab Siraj Ud Dawllah Road, Chandanpura, Chittagong.</p>
+                        </div>
+                        <div class="address">
+                            <h4>Dhaka Office:</h4>
+                            <p>Flat-C/1, Building 4, Joynogor Apartment Complex, Mirpur-13</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chat Component -->
+        <div class="chat-fab" id="chatFab">
+            <i class="fas fa-comments"></i>
+            <span>Chat with us</span>
+        </div>
+
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <div class="chat-status">
+                        <span class="status-dot"></span>
+                        <span>Online</span>
+                    </div>
+                    <h3>Customer Support</h3>
+                </div>
+                <button class="chat-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="chat-messages">
+                <!-- Default welcome message -->
+                <div class="chat-message support">
+                    <div class="message-content">
+                        <p>👋 Hello! How can we help you today?</p>
+                        <span class="message-time">Just now</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chat-input-area">
+                <input type="text" id="chatInput" placeholder="Type your message...">
+                <button id="sendChat">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Enhanced Testimonials Section -->
+        <section id="testimonials" class="glass-section">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonials-container">
+                <!-- Client 1 -->
+                <div class="testimonial-card glass">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="client1.jpg" alt="Client">
+                            <span class="avatar-badge"><i class="fas fa-check"></i></span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>John Doe</h4>
+                            <p class="company">
+                                <i class="fas fa-building"></i>
+                                Tech Solutions Inc.
+                            </p>
+                            <p class="position">Chief Technology Officer</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">"Biz Flow's web development services have revolutionized our internal processes. Their team's expertise in creating intuitive interfaces and robust backend systems has resulted in a 40% increase in our team's productivity."</p>
+                        <div class="testimonial-metrics">
+                            <div class="metric">
+                                <span class="metric-value">40%</span>
+                                <span class="metric-label">Productivity Increase</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">60%</span>
+                                <span class="metric-label">Cost Reduction</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-text">5.0</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-footer">
+                        <div class="project-details">
+                            <span class="project-type">Enterprise Web Application</span>
+                            <span class="project-duration">6 months</span>
+                        </div>
+                        <span class="date">January 2024</span>
+                    </div>
+                </div>
+
+                <!-- Client 2 -->
+                <div class="testimonial-card glass">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="client2.jpg" alt="Client">
+                            <span class="avatar-badge"><i class="fas fa-check"></i></span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Sarah Johnson</h4>
+                            <p class="company">
+                                <i class="fas fa-building"></i>
+                                Digital Innovations Ltd.
+                            </p>
+                            <p class="position">Product Manager</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">"The mobile app developed by Biz Flow exceeded our expectations. The user engagement metrics have shown remarkable improvement, and their ongoing support has been exceptional."</p>
+                        <div class="testimonial-metrics">
+                            <div class="metric">
+                                <span class="metric-value">85%</span>
+                                <span class="metric-label">User Satisfaction</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">3x</span>
+                                <span class="metric-label">User Engagement</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="rating-text">4.5</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-footer">
+                        <div class="project-details">
+                            <span class="project-type">Mobile Application</span>
+                            <span class="project-duration">4 months</span>
+                        </div>
+                        <span class="date">December 2023</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enhanced FAQ Section -->
+        <section id="faq" class="glass-section">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-categories">
+                    <button class="faq-category active" data-category="general">
+                        <i class="fas fa-info-circle"></i>
+                        General
+                    </button>
+                    <button class="faq-category" data-category="services">
+                        <i class="fas fa-cogs"></i>
+                        Services
+                    </button>
+                    <button class="faq-category" data-category="pricing">
+                        <i class="fas fa-tags"></i>
+                        Pricing
+                    </button>
+                    <button class="faq-category" data-category="support">
+                        <i class="fas fa-headset"></i>
+                        Support
+                    </button>
+                </div>
+
+                <div class="faq-items">
+                    <!-- General Questions -->
+                    <div class="faq-item glass" data-category="general">
+                        <div class="faq-question">
+                            <div class="question-content">
+                                <span class="faq-icon"><i class="fas fa-question-circle"></i></span>
+                                <h4>What makes Biz Flow different from other service providers?</h4>
+                            </div>
+                            <button class="toggle-btn">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Biz Flow stands out through:</p>
+                            <ul>
+                                <li>Customized solutions tailored to your specific business needs</li>
+                                <li>Cutting-edge technology stack and best practices</li>
+                                <li>Dedicated support team available 24/7</li>
+                                <li>Transparent pricing with no hidden costs</li>
+                                <li>Proven track record with successful case studies</li>
+                            </ul>
+                            <div class="faq-cta">
+                                <a href="#contact" class="glass-button">
+                                    <i class="fas fa-envelope"></i>
+                                    Contact Us
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Services Questions -->
+                    <div class="faq-item glass" data-category="services">
+                        <div class="faq-question">
+                            <div class="question-content">
+                                <span class="faq-icon"><i class="fas fa-cogs"></i></span>
+                                <h4>What is your development process?</h4>
+                            </div>
+                            <button class="toggle-btn">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our development process follows these key steps:</p>
+                            <ol>
+                                <li><strong>Discovery Phase:</strong> Understanding your requirements and business goals</li>
+                                <li><strong>Planning:</strong> Creating detailed project roadmap and specifications</li>
+                                <li><strong>Design:</strong> UI/UX design and prototyping</li>
+                                <li><strong>Development:</strong> Agile development with regular updates</li>
+                                <li><strong>Testing:</strong> Comprehensive testing and quality assurance</li>
+                                <li><strong>Deployment:</strong> Smooth deployment and launch</li>
+                                <li><strong>Maintenance:</strong> Ongoing support and updates</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- Pricing Questions -->
+                    <div class="faq-item glass" data-category="pricing">
+                        <div class="faq-question">
+                            <div class="question-content">
+                                <span class="faq-icon"><i class="fas fa-tags"></i></span>
+                                <h4>Do you offer custom pricing for specific requirements?</h4>
+                            </div>
+                            <button class="toggle-btn">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we offer flexible pricing options based on:</p>
+                            <ul>
+                                <li>Project scope and complexity</li>
+                                <li>Required features and functionality</li>
+                                <li>Development timeline</li>
+                                <li>Support requirements</li>
+                            </ul>
+                            <p class="note">Contact our sales team for a detailed quote tailored to your needs.</p>
+                        </div>
+                    </div>
+
+                    <!-- Support Questions -->
+                    <div class="faq-item glass" data-category="support">
+                        <div class="faq-question">
+                            <div class="question-content">
+                                <span class="faq-icon"><i class="fas fa-headset"></i></span>
+                                <h4>What kind of support do you provide after project completion?</h4>
+                            </div>
+                            <button class="toggle-btn">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our comprehensive support includes:</p>
+                            <ul>
+                                <li>24/7 technical support</li>
+                                <li>Regular maintenance and updates</li>
+                                <li>Performance monitoring</li>
+                                <li>Security patches and updates</li>
+                                <li>Training and documentation</li>
+                            </ul>
+                            <div class="support-channels">
+                                <p><strong>Support Channels:</strong></p>
+                                <div class="channel-list">
+                                    <span><i class="fas fa-phone"></i> Phone Support</span>
+                                    <span><i class="fas fa-envelope"></i> Email Support</span>
+                                    <span><i class="fas fa-comments"></i> Live Chat</span>
+                                    <span><i class="fas fa-ticket-alt"></i> Ticket System</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer class="footer-section glass">
+        <div class="footer-content">
+            <!-- Company Info -->
+            <div class="footer-company">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Biz Flow Logo">
+                    <h3>Biz Flow</h3>
+                </div>
+                <p class="company-description">
+                    Transforming businesses through innovative technology solutions and exceptional service delivery.
+                </p>
+                <div class="social-links">
+                    <a href="#" class="social-link glass-button">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link glass-button">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link glass-button">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link glass-button">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="footer-links">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#web">Web Development</a></li>
+                    <li><a href="#mobile">Mobile Apps</a></li>
+                    <li><a href="#cloud">Cloud Solutions</a></li>
+                    <li><a href="#consulting">IT Consulting</a></li>
+                    <li><a href="#ai">AI Integration</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>299, Nabab Siraj Ud Dawllah Road<br>Chandanpura, Chittagong</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+880 1234-567890</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>contact@bizflow.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-newsletter">
+                <h4>Subscribe to Our Newsletter</h4>
+                <p>Stay updated with our latest news and updates</p>
+                <form class="newsletter-form">
+                    <div class="input-group">
+                        <input type="email" placeholder="Enter your email" class="glass-input">
+                        <button type="submit" class="glass-button">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <p>&copy; 2024 Biz Flow. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html> 
